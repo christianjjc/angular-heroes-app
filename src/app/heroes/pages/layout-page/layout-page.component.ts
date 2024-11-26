@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
   styleUrl: './layout-page.component.css',
 })
 export class LayoutPageComponent {
-  public sideBarItems = [
+  public sidebarItems = [
     {
       label: 'Listado',
       icon: 'label',
