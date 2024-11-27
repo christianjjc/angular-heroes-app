@@ -2,16 +2,16 @@
     <span class="text-lg mb-4">Login</span>
     <mat-form-field>
         <mat-label>Usario:</mat-label>
-        <input matInput type="text" placeholder="Nombre del Usuario">
+        <input matInput type="text" placeholder="Nombre del Usuario" [value]="email">
     </mat-form-field>
     <mat-form-field>
         <mat-label>
             Constraseña:
         </mat-label>
-        <input matInput type="password" placeholder="Contraseña">
+        <input matInput type="password" placeholder="Contraseña" [value]="password">
     </mat-form-field>
 
-    <button mat-button mat-flat-button color="Primary">
+    <button mat-button mat-flat-button color="Primary" (click)="onLogin()">
         <mat-icon>save</mat-icon>
         Ingresar
     </button>
@@ -19,5 +19,7 @@
     <div class="flex justify-content-end mt-5">
         <a routerLink="/auth/new-account">¿Ya tienes cuenta?</a>
     </div>
-
+    <div>
+        {{email}} - {{password}}
+    </div>
 </div>
