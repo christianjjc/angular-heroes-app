@@ -7,10 +7,8 @@ import { HeroI } from '../../interfaces/hero.interface';
 
 @Component({
   selector: 'app-search-page',
-  standalone: false,
-
   templateUrl: './search-page.component.html',
-  styleUrl: './search-page.component.css',
+  standalone: false,
 })
 export class SearchPageComponent {
   public searchInput = new FormControl('');
@@ -29,6 +27,7 @@ export class SearchPageComponent {
       this.selectedHero = undefined;
       return;
     }
+
     const hero: HeroI = event.option.value;
     this.searchInput.setValue(hero.superhero);
     this.selectedHero = hero;

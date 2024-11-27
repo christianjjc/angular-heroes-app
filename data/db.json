@@ -13,7 +13,8 @@
       "publisher": "DC Comics",
       "alter_ego": "Bruce Wayne",
       "first_appearance": "Detective Comics #27",
-      "characters": "Bruce Wayne"
+      "characters": "Bruce Wayne",
+      "alt_img": null
     },
     {
       "id": "dc-superman",
@@ -166,6 +167,25 @@
       "alter_ego": "Norrin Radd",
       "first_appearance": "The Fantastic Four #48",
       "characters": "Norrin Radd"
+    },
+    {
+      "id": "ueV6O-m",
+      "superhero": "cjjc",
+      "publisher": "DC Comics",
+      "alter_ego": "siyei",
+      "first_appearance": "mi casa",
+      "characters": "aaa",
+      "alt_image": "",
+      "alt_img": "https://i.pinimg.com/736x/8f/b9/a1/8fb9a192b0a6d3974a52099829c3007d.jpg"
+    },
+    {
+      "id": "ePCxQhk",
+      "superhero": "assss",
+      "publisher": "Marvel Comics",
+      "alter_ego": "sssss",
+      "first_appearance": "sss",
+      "characters": "sssss",
+      "alt_img": "https://i.pinimg.com/736x/66/a1/98/66a198874e7cd8d90dfc48ea02b60275.jpg"
     }
   ]
 }
